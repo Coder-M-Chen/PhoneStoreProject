@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.entity.TbGoodsEntity" table="tb_goods" schema="phonestore">
+        <id name="goodsId">
+            <column name="GoodsID" sql-type="char(14)" length="14"/>
+        </id>
+        <property name="goodsName">
+            <column name="GoodsName" sql-type="varchar(30)" length="30"/>
+        </property>
+        <property name="goodsType">
+            <column name="GoodsType" sql-type="varchar(20)" length="20"/>
+        </property>
+        <property name="goodsInfo">
+            <column name="GoodsInfo" sql-type="varchar(500)" length="500"/>
+        </property>
+        <property name="goodsPrice">
+            <column name="GoodsPrice" sql-type="int(10)"/>
+        </property>
+        <property name="goodsDiscount">
+            <column name="GoodsDiscount" sql-type="int(10)"/>
+        </property>
+        <property name="goodsAmount">
+            <column name="GoodsAmount" sql-type="int(10)"/>
+        </property>
+        <property name="goodsImage">
+            <column name="GoodsImage" sql-type="longblob(max)" not-null="false"/>
+        </property>
+        <property name="goodsState">
+            <column name="GoodsState" sql-type="varchar(20)" length="20"/>
+        </property>
+        <property name="upMaster">
+            <column name="UpMaster" sql-type="char(11)" length="11"/>
+        </property>
+        <property name="goodsSet">
+            <column name="GoodsSet" sql-type="varchar(200)" length="200" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

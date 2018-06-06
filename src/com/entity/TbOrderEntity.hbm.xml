@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.entity.TbOrderEntity" table="tb_order" schema="phonestore">
+        <id name="orderId">
+            <column name="OrderID" sql-type="char(20)" length="20"/>
+        </id>
+        <property name="userId">
+            <column name="UserID" sql-type="char(11)" length="11"/>
+        </property>
+        <property name="tradeId">
+            <column name="TradeID" sql-type="varchar(30)" length="30" not-null="true"/>
+        </property>
+        <property name="tradeTime">
+            <column name="TradeTime" sql-type="datetime(19)" not-null="true"/>
+        </property>
+        <property name="orderInfo">
+            <column name="OrderInfo" sql-type="varchar(200)" length="200"/>
+        </property>
+        <property name="orderState">
+            <column name="OrderState" sql-type="varchar(20)" length="20"/>
+        </property>
+        <property name="orderPrice">
+            <column name="OrderPrice" sql-type="int(10)" not-null="true"/>
+        </property>
+        <property name="sendType">
+            <column name="SendType" sql-type="varchar(20)" length="20" not-null="true"/>
+        </property>
+        <property name="sendPrice">
+            <column name="SendPrice" sql-type="int(10)" not-null="true"/>
+        </property>
+        <property name="sendAdmin">
+            <column name="SendAdmin" sql-type="char(11)" length="11" not-null="true"/>
+        </property>
+        <property name="sendAddress">
+            <column name="SendAddress" sql-type="varchar(120)" length="120"/>
+        </property>
+        <property name="sendState">
+            <column name="SendState" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="more">
+            <column name="More" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

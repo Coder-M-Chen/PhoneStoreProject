@@ -1,0 +1,161 @@
+/*复用首页模块*/
+.box {
+  min-width: 1160px;
+}
+
+/*topBar*/
+.leftArea {
+  float: left;
+}
+.rightArea {
+  float: right;
+}
+.topBar {
+  height: 31px;
+  background-color: #F7F7F7;
+  line-height: 31px;
+}
+.topBar a:hover {
+  color: red;
+}
+.collection {
+  background: url(../img/collection.png) left center no-repeat;
+  padding-left: 19px;
+  font-weight: bold;
+}
+
+/*logoBar*/
+.logoBar {
+  height: 85px;
+  background-color: #1D7AD9;
+}
+.logo {
+  padding-left: 41px;
+  padding-top: 13px;
+}
+
+/*search*/
+.search_box {
+  width: 430px;
+  padding-top: 23px;
+  padding-left: 185px;
+}
+.search_text {
+  width: 350px;
+  height: 35px;
+  padding: 0 5px;
+}
+.search_btn {
+  width: 70px;
+  height: 35px;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  background-color: #FF8C00;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*顶部右侧购物车*/
+.shopCar {
+  width: 145px;
+  height: 35px;
+  background-color: #FF8C00;
+  margin-top: 23px;
+  font: 14px/35px "微软雅黑";
+  color: #fff;
+  margin-right: 59px;
+  display: inline;
+}
+.shopText {
+  height: 100%;
+  width: 87px;
+  border-right: #E27A00 solid 1px;
+  background: url(../img/shaoIcon.png) 10px center no-repeat;
+  text-indent: 40px;
+}
+.shopNum {
+  width: 19px;
+  height: 35px;
+  border-left: #FF9C01 solid 1px;
+  background: url(../img/sj.png) 33px center no-repeat;
+  text-align: right;
+  padding-right: 37px;
+}
+
+/*导航区*/
+.navBox {
+  height: 35px;
+  background-color: #1369C0;
+  color: #fff;
+  font-family: "Microsoft YaHei";
+}
+.shopClass {
+  width: 190px;
+  position: relative;
+}
+.shopClass h3 {
+  line-height: 35px;
+  text-align: center;
+}
+.shopClass i {
+  width: 11px;
+  height: 7px;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 11px;
+  background: url(../img/down.png) left center no-repeat;
+}
+.nav, .shopClass h3 {
+  font-family: "微软雅黑";
+}
+.nav {
+  line-height: 35px;
+}
+.nav li {
+  float: left;
+}
+.nav li a:hover {
+  background-color: #4593FD;
+}
+.nav a {
+  height: 35px;
+  display: inline-block;
+  padding: 0 35px;
+  color: #fff;
+  border-right: #ccc solid 1px;
+}
+.nav .nobor {
+  border-right: none;
+}
+.nav .active {
+  background-color: #4593FD;
+}
+
+/*底部样式*/
+.footer {
+  background-color: #D4D4D4;
+  text-align: center;
+  line-height: 24px;
+  padding: 50px 0;
+}
+.footer i {
+  font-style: normal;
+  margin: 0 5px;
+}
+.footer a {
+  color: #000;
+}
+.footer a:hover {
+  color: #F60;
+}
+.web {
+  padding-top: 30px;
+}
+.web img {
+  margin: 0 12px;
+}
+.hr_25 {
+  height: 25px;
+}
+
+

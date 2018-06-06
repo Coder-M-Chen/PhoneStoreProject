@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.entity.TbCartEntity" table="tb_cart" schema="phonestore">
+        <id name="cartId">
+            <column name="CartId" sql-type="char(25)" length="25"/>
+        </id>
+        <property name="userId">
+            <column name="UserId" sql-type="char(11)" length="11"/>
+        </property>
+        <property name="goodId">
+            <column name="GoodId" sql-type="char(14)" length="14"/>
+        </property>
+        <property name="goodSet">
+            <column name="GoodSet" sql-type="varchar(200)" length="200" not-null="true"/>
+        </property>
+        <property name="goodCount">
+            <column name="GoodCount" sql-type="int(10)"/>
+        </property>
+        <property name="goodName">
+            <column name="GoodName" sql-type="varchar(30)" length="30"/>
+        </property>
+        <property name="goodPrice">
+            <column name="GoodPrice" sql-type="int(10)"/>
+        </property>
+        <property name="goodCheck">
+            <column name="GoodCheck" sql-type="char(1)" length="1"/>
+        </property>
+    </class>
+</hibernate-mapping>

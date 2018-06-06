@@ -1,0 +1,308 @@
+em{
+	color: red;
+}
+.Order{
+	width: 396px;
+    padding-top: 26px;
+}
+.Order .Order_step{
+	width: 396px;
+    background: url(../img/jpg/carsum.jpg) left top no-repeat;
+    height: 20px;
+}
+.item{
+	width: 30%;
+	float: left;
+	color: yellow;
+	font-weight: bold;
+}
+.item:nth-child(2){
+	width: 40%;
+	text-align: center;
+}
+.item:last-child{
+	text-align: right;
+	color: #F7F7F7;
+}
+.shopCart_box .shop_Message{
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	/*padding: 25px 30px;*/
+}
+.shopCart_box .shop_Message .shop_Message_Title{
+	height: 31px;
+    background: url(../img/jpg/grey.jpg) left top repeat-x;
+    color: #444;
+    font: 16px/31px "Microsoft YaHei";
+    text-indent: 12px;
+    border: 1px solid #ccc;
+    margin-bottom: -1px;
+}
+.shop_Message_text{
+	padding: 25px 30px;
+}
+#info input, #info select {
+    border: 1px solid #ccc;
+    height: 22px;
+    text-indent: 8px;
+    font-size: 12px;
+    color: #000;
+    }
+.areaInfo{
+	font-size: 12px;
+    line-height: 34px;
+    color: #444;
+    margin-bottom: 10px;
+}
+.areaInfo p{
+	float: left;
+}    
+.info_9527{
+	width: 180px;
+	text-align: center;
+	color: #444;
+}
+#info select,input{
+	margin-left: 20px;
+}
+.adressinfo {
+	font-size: 12px;
+    line-height: 34px;
+    color: #444;
+    margin-bottom: 10px;
+}
+.adressinfo p{
+	float: left;
+}
+.adressinfo p input{
+	width: 392px;
+}
+.peopleinfo{
+	font-size: 12px;
+    line-height: 34px;
+    color: #444;
+    margin-bottom: 10px;
+}
+.peopleinfo p{
+	float: left;
+}
+.phoneinfo{
+	font-size: 12px;
+    line-height: 34px;
+    color: #444;
+    margin-bottom: 10px;
+}
+.phoneinfo p{
+	float: left;
+}
+.comment_width{
+	margin-left: 5px;
+}
+.s1{
+	margin-left: 2px;
+}
+.comfirmBtn{
+	padding: 10px 22px;
+    color: #fff;
+    background-color: #4493fc;
+    border: 1px solid #3784ed;
+}
+.confirm_img{
+	margin-top: 20px;
+}
+.Payment_Method{
+	margin-top: 20px;
+}
+.Payment_Method .shop_Message_Title{
+	height: 31px;
+    background: url(../img/jpg/grey.jpg) left top repeat-x;
+    color: #444;
+    font: 16px/31px "Microsoft YaHei";
+    text-indent: 12px;
+    border: 1px solid #ccc;
+    margin-bottom: -1px;
+}
+.Payment_Method_content{
+	font-size: 12px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    padding: 10px 25px;
+    color: #444;
+}
+.PM_top span{
+	display: inline-block;
+	height: 40px;
+	margin-left: 30px;
+    line-height: 40px;
+	padding-left: 30px;
+}
+.PM_top span:last-of-type{
+	margin-left: 0px;
+}
+.Invoice_information{
+	margin-top: 20px;
+}
+.Invoice_information .shop_Message_Title{
+	height: 31px;
+    background: url(../img/jpg/grey.jpg) left top repeat-x;
+    color: #444;
+    font: 16px/31px "Microsoft YaHei";
+    text-indent: 12px;
+    border: 1px solid #ccc;
+    margin-bottom: -1px;
+}
+.Invoice_information_con{
+	font-size: 12px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    padding: 10px 25px;
+    color: #444;
+    padding: 15px 25px;
+}
+.Invoice_information_con input{
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+	margin-left: 0px;
+}
+.Invoice_information_con b{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.Invoice_information_con .info_9527{
+	border: 1px solid #ccc;
+	height: 20px;
+	line-height: 20px;
+	width: 120px;
+}
+.info_te input{
+	border: 1px solid #ccc;
+	margin-left: 10px;
+	height: 20px;
+	font-size: 12px;
+}
+.activebutton{
+    padding: 5px 20px ;
+    color: #fff;
+    background-color: #4493fc;
+    border: 1px solid #3784ed;
+}
+.noactivebutton{
+	padding: 5px 20px;
+    color: #666;
+    border: 1px solid #ccc;
+}
+.butspace{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.Delivery_list{
+	margin-top: 20px;
+	border: 1px solid #ccc;
+}
+.Delivery_list .shop_Message_Title{
+	height: 31px;
+    background: url(../img/jpg/grey.jpg) left top repeat-x;
+    color: #444;
+    font: 16px/31px "Microsoft YaHei";
+    text-indent: 12px;
+    border: 1px solid #ccc;
+    margin-bottom: -1px;
+}
+.backshopcar{
+	float: right;
+	font-size: 12;
+	color: #3377ff;
+	margin-right: 33px;
+}
+.backshopcar:hover{
+	text-decoration:underline;
+}
+.Delivery_list_content{
+	width: 100%;
+	font-size: 12px;
+    color: #666;
+    border-bottom: 1px solid #ccc;
+}
+.tr td{
+	border-bottom: 1px solid #ccc;
+}
+.lefttd{
+	width: 50%;
+    text-indent: 25px;
+    height: 38px;
+}
+.left_con{
+	padding: 10px 0px;
+}
+.left_con .img_area{
+	float: left;
+}
+.td_p{
+	margin-top: 40px;
+}
+.morequest{
+	height: 45px;
+    line-height: 45px;
+    padding-left: 25px;
+}
+.morequest a{
+	color: blue;
+}
+.morequest a:hover{
+	text-decoration: underline;
+}
+.sorry{
+	color: #e00;
+    padding-left: 25px;
+    height: 50px;
+    line-height: 50px;
+}
+.sorry p{
+	text-indent: 2em;
+	background:url(../img/jpg/warn.jpg) left center no-repeat;
+}
+.cantBuy{
+	padding: 10px 25px;
+}
+.cantBuy_image{
+	float: left;
+	margin-right: 20px;
+}
+.cantBuy_text{
+	float: left;
+}
+.Order_settlement{
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+.Order_settlement .shop_Message_Title{
+	height: 31px;
+    background: url(../img/jpg/grey.jpg) left top repeat-x;
+    color: #444;
+    font: 16px/31px "Microsoft YaHei";
+    text-indent: 12px;
+    border: 1px solid #ccc;
+    margin-bottom: -1px;
+}
+.finally_box{
+    padding-top: 38px;
+    padding-bottom: 18px;
+    border: 1px solid #ccc;
+}
+.fin_text{
+	float: right;
+	margin-right: 20px;
+}
+.fin_text span{
+	font-size: 24px;
+    color: #f00000;
+    line-height: 40px
+}
+.fin_text input{
+	padding: 8px 35px;
+    color: #fff;
+    background: #e50007;
+}

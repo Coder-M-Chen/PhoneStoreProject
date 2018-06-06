@@ -1,0 +1,43 @@
+.comWidth {
+  width: 1000px;
+  margin: 0 auto;
+}
+ol, ul {
+  list-style: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+/*清除浮动*/
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix {
+  zoom: 1;
+}
+/*价格都为红色*/
+.shop_price{
+	color: red;
+}
+.lf{
+	float: left;
+}
+.rf{
+	float: right;
+}
+

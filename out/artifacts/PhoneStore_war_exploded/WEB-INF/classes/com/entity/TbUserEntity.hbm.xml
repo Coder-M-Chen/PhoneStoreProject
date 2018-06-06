@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.entity.TbUserEntity" table="tb_user" schema="phonestore">
+        <id name="userId">
+            <column name="UserID" sql-type="char(11)" length="11"/>
+        </id>
+        <property name="userType">
+            <column name="UserType" sql-type="char(1)" length="1"/>
+        </property>
+        <property name="certification">
+            <column name="Certification" sql-type="varchar(20)" length="20" not-null="true"/>
+        </property>
+        <property name="password">
+            <column name="Password" sql-type="varchar(30)" length="30"/>
+        </property>
+        <property name="vName">
+            <column name="VName" sql-type="varchar(30)" length="30"/>
+        </property>
+        <property name="rName">
+            <column name="RName" sql-type="varchar(30)" length="30"/>
+        </property>
+        <property name="idCard">
+            <column name="IDCard" sql-type="char(18)" length="18"/>
+        </property>
+        <property name="phone">
+            <column name="Phone" sql-type="varchar(11)" length="11"/>
+        </property>
+        <property name="email">
+            <column name="Email" sql-type="varchar(30)" length="30" not-null="true"/>
+        </property>
+        <property name="image">
+            <column name="Image" sql-type="longblob(max)" not-null="true"/>
+        </property>
+        <property name="address">
+            <column name="Address" sql-type="varchar(150)" length="150"/>
+        </property>
+        <property name="regTime">
+            <column name="RegTime" sql-type="datetime(19)"/>
+        </property>
+    </class>
+</hibernate-mapping>

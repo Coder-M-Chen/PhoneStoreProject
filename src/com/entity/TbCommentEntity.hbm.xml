@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.entity.TbCommentEntity" table="tb_comment" schema="phonestore">
+        <id name="commentId">
+            <column name="CommentID" sql-type="char(20)" length="20"/>
+        </id>
+        <property name="orderId">
+            <column name="OrderID" sql-type="char(20)" length="20"/>
+        </property>
+        <property name="userId">
+            <column name="UserID" sql-type="char(11)" length="11"/>
+        </property>
+        <property name="goodsId">
+            <column name="GoodsID" sql-type="char(14)" length="14"/>
+        </property>
+        <property name="commentInfo">
+            <column name="CommentInfo" sql-type="varchar(200)" length="200"/>
+        </property>
+        <property name="commentStar">
+            <column name="CommentStar" sql-type="int(10)"/>
+        </property>
+        <property name="commentMore">
+            <column name="CommentMore" sql-type="varchar(200)" length="200" not-null="true"/>
+        </property>
+        <property name="more">
+            <column name="More" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

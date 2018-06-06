@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+    <!--<constant name="struts.devMode" value="true" />-->
+    <!--<constant name="struts.multipart.maxSize" value="1000000" />-->
+
+    <package name="phoneStore" extends="struts-default" namespace="/" strict-method-invocation="false">
+        <action name="user_*" class="userAction" method="{1}">
+            <result name="loginUserSuccess" type="dispatcher">/index.jsp</result>
+            <result name="loginAdminSuccess" type="dispatcher">/jsp/personal.jsp</result>
+            <result name="loginError">/jsp/loginError.jsp</result>
+            <result name="registerSuccess" type="dispatcher">/jsp/personal.jsp</result>
+            <result name="logOffSuccess" type="dispatcher">/index.jsp</result>
+            <result name="all2AdminSuccess" type="dispatcher">/jsp/userManage.jsp</result>
+            <result name="toPageCheckSuccess" type="dispatcher">/jsp/userCheck.jsp</result>
+            <result name="toUpdatePwdSuccess" type="dispatcher">/jsp/userUpdatePwd.jsp</result>
+            <result name="updatePwdSuccess" type="redirectAction">user_logOff.action</result>
+            <result name="user2AdminSuccess" type="dispatcher">/jsp/personal.jsp</result>
+            <result name="agreeUser2AdminSuccess" type="redirectAction">user_all2Admin.action</result>
+            <result name="selectFileSuccess" type="dispatcher">/jsp/personal.jsp</result>
+            <result name="updateSuccess" type="dispatcher">/jsp/personal.jsp</result>
+        </action>
+        <action name="type_*" class="typeAction" method="{1}">
+            <result name="initJspSuccess" type="redirectAction">news_initJsp.action</result>
+            <result name="findAllSuccess" type="dispatcher">/jsp/typeManage.jsp</result>
+            <result name="addItemSuccess" type="redirectAction">type_findAll.action</result>
+            <result name="toJsp_typeAdd" type="dispatcher">/jsp/typeAdd.jsp</result>
+            <result name="toUpdatePageSuccess" type="dispatcher">/jsp/typeUpdate.jsp</result>
+            <result name="updateSuccess" type="redirectAction">type_findAll.action</result>
+        </action>
+        <action name="goods_*" class="goodsAction" method="{1}">
+            <result name="addError" type="dispatcher">/jsp/error.jsp</result>
+            <result name="initJspSuccess" type="dispatcher">/jsp/home.jsp</result>
+            <result name="findByIdSuccess" type="redirectAction">comment_findFirstByGood.action</result>
+            <result name="findAllUserSuccess" type="dispatcher">/jsp/goodsList.jsp</result>
+            <result name="findAllSuccess" type="dispatcher">/jsp/goodsManage.jsp</result>
+            <result name="toUpdatePageSuccess" type="dispatcher">/jsp/goodsUpdate.jsp</result>
+            <result name="addSuccess" type="redirectAction">goods_findAll.action</result>
+            <result name="findByGoodsNameSuccess" type="dispatcher">/jsp/goodsList.jsp</result>
+            <result name="findSuccess" type="dispatcher">/jsp/goodsManage.jsp</result>
+            <result name="findByTypeIdSuccess" type="dispatcher">/jsp/goodsList.jsp</result>
+            <result name="findAllUserPriceSuccess" type="dispatcher">/jsp/goodsList.jsp</result>
+            <result name="findAllUserTimeSuccess" type="dispatcher">/jsp/goodsList.jsp</result>
+            <result name="updateCountSuccess" type="redirectAction">order_findByUserId</result>
+            <result name="toAddCommentSuccess" type="dispatcher">/jsp/commentAdd.jsp</result>
+
+            <result name="updateSuccess" type="redirectAction">goods_findAll.action</result>
+        </action>
+        <action name="news_*" class="newsAction" method="{1}">
+            <result name="initJspSuccess" type="redirectAction">goods_initJsp.action</result>
+            <result name="toJsp_addNews" type="dispatcher">/jsp/newsAdd.jsp</result>
+            <result name="findAllSuccess" type="dispatcher">/jsp/newsManage.jsp</result>
+            <result name="addSuccess" type="redirectAction">news_findAll.action</result>
+            <result name="toUpdatePageSuccess" type="dispatcher">/jsp/newsUpdate.jsp</result>
+            <result name="updateSuccess" type="redirectAction">news_findAll.action</result>
+            <result name="toNewsListSuccess" type="dispatcher">/jsp/newsList.jsp</result>
+        </action>
+        <action name="comment_*" class="commentAction" method="{1}">
+            <result name="findByIdSuccess" type="dispatcher">/jsp/commentUpdate.jsp</result>
+            <result name="addSuccess" type="dispatcher">jsp/orderUpdate.jsp</result>
+            <result name="findFirstByGoodSuccess" type="dispatcher">/jsp/goodsDetail.jsp</result>
+            <result name="findByGoodSuccess" type="dispatcher">/jsp/commentList.jsp</result>
+        </action>
+        <action name="feedback_*" class="feedbackAction" method="{1}">
+            <result name="findAllSuccess" type="dispatcher">/jsp/feedbackManage.jsp</result>
+            <result name="toUpdateJsp" type="dispatcher">/jsp/feedbackUpdate.jsp</result>
+            <result name="updateSuccess" type="redirectAction">feedback_findAll.action</result>
+            <result name="toPageAddSuccess" type="dispatcher">/jsp/feedbackAdd.jsp</result>
+            <result name="addSuccess" type="redirectAction">feedback_findAllUser.action</result>
+            <result name="findAllUserSuccess" type="dispatcher">/jsp/feedbackManage.jsp</result>
+        </action>
+        <action name="order_*" class="orderAction" method="{1}">
+            <result name="findByUserIdSuccess" type="dispatcher">/jsp/orderManage.jsp</result>
+            <result name="findAllSuccess" type="dispatcher">/jsp/orderManage.jsp</result>
+            <result name="addFromGoodsDetailSuccess" type="dispatcher">/jsp/checkOrder.jsp</result>
+            <result name="addSuccess" type="redirectAction">cart_clearCheckedByUserId.action</result>
+            <result name="toCheckOrderSuccess" type="dispatcher">/jsp/checkOrder.jsp</result>
+            <result name="checkGoodSuccess" type="redirectAction">cart_findByUserId.action</result>
+            <result name="toUpdatePageSuccess" type="dispatcher">/jsp/orderUpdate.jsp</result>
+            <result name="sendOrderSuccess" type="redirectAction">order_findAll</result>
+            <result name="receiveOrderSuccess" type="redirectAction">order_findByUserId</result>
+            <result name="findByUserAndNoPaySuccess" type="dispatcher">/jsp/orderManage.jsp</result>
+            <result name="findByUserAndNoSendSuccess" type="dispatcher">/jsp/orderManage.jsp</result>
+
+        </action>
+        <action name="cart_*" class="cartAction" method="{1}">
+            <result name="addSuccess" type="redirectAction">cart_findByUserId.action</result>
+            <result name="findByUserIdSuccess" type="dispatcher">/jsp/cart.jsp</result>
+            <result name="deleteSuccess" type="redirectAction">cart_findByUserId.action</result>
+            <result name="addGoodAndPaySuccess" type="redirectAction">order_addFromGoodsDetail</result>
+            <result name="updateGoodCount" type="redirectAction">cart_findByUserId.action</result>
+            <result name="clearCheckedByUserIdSuccess" type="redirectAction">goods_updateCount.action</result>
+            <result name="toManagerViewSuccess" type="dispatcher">/jsp/manageView.jsp</result>
+            <result name="statisticsByDateSuccess" type="dispatcher">/jsp/manageView.jsp</result>
+            <result name="bottomListSuccess" type="dispatcher">/jsp/manageView.jsp</result>
+        </action>
+    </package>
+</struts>

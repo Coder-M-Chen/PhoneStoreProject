@@ -1,0 +1,1869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="PhoneStore:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="00e04d74-5fed-4721-b533-dc4d4212a69a" name="Default" comment="优化系统">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/PhoneStore_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/16e2cfda-e08d-4275-9f2a-5172426e3c43/storage_v2/_src_/schema/Dian_Shang_Ping_Tai.TmKTNg.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/5bd83ceb-00fb-48c9-b466-a70ffbecb960/storage_v2/_src_/schema/Dian_Shang_Ping_Tai.TmKTNg.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/8a3e4d33-4b7e-4cd5-8595-55b3eb7b8557.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/8a3e4d33-4b7e-4cd5-8595-55b3eb7b8557/storage_v2/_src_/schema/phonestore.M_BilA.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/8a3e4d33-4b7e-4cd5-8595-55b3eb7b8557/storage_v2/_src_/schema/phonestore.M_BilA.zip" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a069b555-53bd-46f6-a122-f4d3fb9fb6d6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a069b555-53bd-46f6-a122-f4d3fb9fb6d6/storage_v2/_src_/schema/phonestore.M_BilA.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a069b555-53bd-46f6-a122-f4d3fb9fb6d6/storage_v2/_src_/schema/phonestore.M_BilA.zip" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/bdd7a070-b08d-4eaa-8117-dbfbebad526e.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/bdd7a070-b08d-4eaa-8117-dbfbebad526e/storage_v2/_src_/schema/phonestore.M_BilA.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/bdd7a070-b08d-4eaa-8117-dbfbebad526e/storage_v2/_src_/schema/phonestore.M_BilA.zip" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/df48213a-ac22-41f5-8840-4d95b86e1f53.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/df48213a-ac22-41f5-8840-4d95b86e1f53/storage_v2/_src_/schema/phonestore.M_BilA.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/df48213a-ac22-41f5-8840-4d95b86e1f53/storage_v2/_src_/schema/phonestore.M_BilA.zip" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_2_16_5_2_16.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/JBoss_Weld_2_0_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_15_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Struts_2_2_5_14_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/alipay_sdk_java20170324180803.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_5_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mchange_commons_java_0_2_15.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_7_bin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/spring_web_5_0_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/struts2_spring_plugin_2_5_16.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PhoneStore.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/junit-4.7.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/c3p0-0.9.5.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/cdi-api-javadoc.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/cdi-api-sources.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/cdi-api.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/classmate-1.3.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/commons-fileupload.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/commons-io.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/commons-lang.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/dom4j-1.6.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/freemarker.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.0.1.Final.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/hibernate-core-5.2.16.Final.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/jandex-2.0.3.Final.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/javassist-3.22.0-GA.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/jboss-logging-3.3.1.Final.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/log4j.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/ognl.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-aop-4.3.15.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-aspects-4.3.15.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-beans-4.3.15.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-context-1.0.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-context-4.3.15.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-context-support-4.3.15.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-core-4.3.15.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-expression-4.3.15.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-instrument-4.3.15.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-instrument-tomcat-4.3.15.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-jdbc-4.3.15.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-jms-4.3.15.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-messaging-4.3.15.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-orm-4.3.15.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-oxm-4.3.15.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-test-4.3.15.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-tx-4.3.15.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/struts2-core.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-api-javadoc.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-api-sources.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-api.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-core-impl-javadoc.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-core-impl-sources.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-core-impl.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-core-javadoc.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-core-jsf-javadoc.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-core-jsf-sources.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-core-jsf.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-core-sources.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-core.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-se-core-javadoc.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-se-core-sources.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-se-core.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-se-sources.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-se.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-servlet-core-javadoc.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-servlet-core-sources.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-servlet-core.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-servlet-javadoc.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-servlet-sources.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-servlet.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-spi-javadoc.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-spi-sources.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/weld-spi.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mchange-commons-java-0.2.15.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mysql-connector-java-5.1.7-bin.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spring-web-5.0.5.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/action/CartAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/action/CommentAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/action/FeedbackAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/action/GoodsAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/action/NewsAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/action/OrderAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/action/TypeAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/action/UserAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/bean/Addressee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/bean/GoodsList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/bean/ImageOperations.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/bean/JsonOption.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/bean/MD5Encoding.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/bean/PageBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/bean/StatisticsBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dao/Cart/CartDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dao/Cart/ICartDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dao/Comment/CommentDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dao/Comment/ICommentDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dao/Feedback/FeedbackDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dao/Feedback/IFeedbackDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dao/Goods/GoodsDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dao/Goods/IGoodsDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dao/News/INewsDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dao/News/NewsDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dao/Order/IOrderDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dao/Order/OrderDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dao/Type/ITypeDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dao/Type/TypeDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dao/User/IUserDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/dao/User/UserDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/entity/TbCartEntity.hbm.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/entity/TbCartEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/entity/TbCommentEntity.hbm.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/entity/TbCommentEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/entity/TbFeedbackEntity.hbm.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/entity/TbFeedbackEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/entity/TbGoodsEntity.hbm.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/entity/TbGoodsEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/entity/TbNewsEntity.hbm.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/entity/TbNewsEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/entity/TbOrderEntity.hbm.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/entity/TbOrderEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/entity/TbTypeEntity.hbm.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/entity/TbTypeEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/entity/TbUserEntity.hbm.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/entity/TbUserEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/service/CartService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/service/CommentService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/service/FeedbackService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/service/GoodsService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/service/NewsService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/service/OrderService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/service/TypeService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/service/UserService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/view/CartViewEntity.hbm.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/view/CartViewEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/jdbc.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/CDL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/Cookie.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/CookieList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/HTTP.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/HTTPTokener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/JSONArray.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/JSONException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/JSONML.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/JSONObject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/JSONPointer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/JSONPointerException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/JSONString.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/JSONStringer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/JSONTokener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/JSONWriter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/Property.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/XML.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/json/XMLTokener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/spring-config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/struts.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/struts2-spring-plugin-2.5.16.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/testAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/beans.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/alipay-sdk-java20170324180803-source.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/alipay-sdk-java20170324180803.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/base.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/cart.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/copy_common.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/copy_main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/copy_reset.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/demo-page.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/demo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/detail.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/examples.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/geochart.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/hover.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/index.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/list.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/login.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/magnific-popup.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/pinglun.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/register.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/shopCart.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/%8MK}{F0OD~03Z}Z04~R$Q6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/13123456789.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/15123456789.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/15135834916.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/17123456789.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/18123456789.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/18827027803.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20140101000000.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20150101000000.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20160301000000.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20170101111111.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20170203000000.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20171111000000.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20180101000000.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20180401000000.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20180501000000.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20180517151013.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20180517154015.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20180517225601.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20180518110100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20180602113122.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20180604200302.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20180605162913.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20180605164706.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20180605201304.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20180606095953.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20180606103807.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20180606104448.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/20180606110515.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/549AD43757FF3CCAA7AC1144819557C6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/Chrysanthemum.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/Hydrangeas.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/J2~~EAJTJ_Q%SK[]`DYT}03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/Jellyfish.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/Lenovo Phone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/PMQL75VU~ZJQBSAY6Q(YG@6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/Penguins.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/banner_01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/banner_02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/bg1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/bg2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/bg3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/bg4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/big_img.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/canvas-cart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/canvas.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/canvas1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/canvas2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/canvas3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/canvas4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/cart-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/datails (1).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/datails (10).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/datails (2).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/datails (3).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/datails (4).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/datails (5).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/datails (6).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/datails (7).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/datails (8).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/datails (9).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/detail 14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/detail 15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/detail 16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/detail 17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/detail 18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/detail 19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/detail 20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/detail 21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/detail 22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/detail 23.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/detail 24.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/detail 25.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/detail 26.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/detail 27.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/details-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/details-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/details-guigecanshu.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/details11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/details12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/details13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/header.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/hot.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/iPhone X.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/icon_phone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img23.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img24.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img25.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img26.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img27.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img28.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img29.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/img9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/index_top.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/iphone8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/list-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/login-qq.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/login-weibo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/login-weixin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/login1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/login2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/meizu pro6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/nav1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/oppo r15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/reg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/search.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/shopItem_smImg_01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/shopItem_smImg_02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/ssh框架.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/tick.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/visit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/vivo x21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/zx-logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/三星S8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/三星S9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/中兴Blade.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/中兴天机Axon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/华为Nova.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/小米5X.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/小米6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/小米8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/微信截图_20170513150148.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/微信截图_20170515084336.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/红米 note5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/红米5A.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/联想K320t 499.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/联想K5 play 749.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/魅族PRO 7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/Chart.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/bars.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/cart.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/chartinator.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/detail.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/echarts.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/gmaps.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-1.10.2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-2.1.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.ffform.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.magnific-popup.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.nicescroll.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/modernizr.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/nivo-lightbox.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/scripts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/skycons.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/cart.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/checkOrder.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/commentAdd.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/commentList.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/commentUpdate.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/error.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/feedbackAdd.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/feedbackManage.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/feedbackUpdate.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/goodsAdd.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/goodsDetail.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/goodsList.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/goodsManage.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/goodsUpdate.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/home.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/login.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/loginError.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/manageView.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/newsAdd.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/newsList.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/newsManage.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/newsUpdate.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/orderManage.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/orderUpdate.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/personal.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/register.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/typeAdd.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/typeManage.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/typeUpdate.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/userCheck.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/userManage.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/userUpdatePwd.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/lib/jquery-1.12.4.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/bootstrap-3.3.7-dist/css/bootstrap-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/bootstrap-3.3.7-dist/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/bootstrap-3.3.7-dist/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/bootstrap-3.3.7-dist/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/bootstrap-3.3.7-dist/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/bootstrap-3.3.7-dist/js/npm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/jquery.cookie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/jquery.elevateZoom-2.2.3.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/jquery.fly.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/plugin/template-web.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PhoneStore$All_in_PhoneStore.coverage" NAME="All in PhoneStore Coverage Results" MODIFIED="1525709355544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dataSource" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="phonestore@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sessionFactory/Hibernate" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PhoneStore" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/struts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="48" column="86" lean-forward="false" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/action/CartAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="74" column="55" lean-forward="false" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/service/CartService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+              <folding>
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/dao/Cart/CartDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goodsUpdate.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/goodsUpdate.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="180" column="38" lean-forward="false" selection-start-line="172" selection-start-column="82" selection-end-line="180" selection-end-column="38" />
+              <folding>
+                <marker date="1528254371476" expanded="false" signature="10298:10309" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkOrder.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/checkOrder.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="43" column="13" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="43" selection-end-column="13" />
+              <folding>
+                <marker date="1528255069623" expanded="false" signature="2257:2290" ph="..." />
+                <marker date="1528255069623" expanded="false" signature="2534:2567" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orderUpdate.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/orderUpdate.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="81" column="62" lean-forward="false" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="62" />
+              <folding>
+                <marker date="1528255069560" expanded="false" signature="2206:2239" ph="..." />
+                <marker date="1528255069560" expanded="false" signature="2483:2516" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/action/OrderAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="79" column="26" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orderManage.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/orderManage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-275">
+              <caret line="114" column="33" lean-forward="false" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="typeAdd.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/typeAdd.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="109" column="58" lean-forward="false" selection-start-line="109" selection-start-column="58" selection-end-line="109" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="struts_2_5" />
+        <option value="spring-beans.schema" />
+        <option value="Tag Library Descriptor" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>user2A</find>
+      <find>feedbackService</find>
+      <find>feedback</find>
+      <find>toUpdatePage</find>
+      <find>File</find>
+      <find>findByType</find>
+      <find>toUp</find>
+      <find>toUpdatePageSuccess</find>
+      <find>sendOrder</find>
+      <find>goodId</find>
+      <find>goodEntity</find>
+      <find>checkGoodSuccess</find>
+      <find>toNewsListSuccess</find>
+      <find>type_</find>
+      <find>findFirstByGood</find>
+      <find>text-align: left</find>
+      <find>Image2</find>
+      <find>img</find>
+      <find>checkOrder</find>
+      <find>findById</find>
+      <find>set</find>
+      <find>setCartId</find>
+      <find>add</find>
+      <find>find</find>
+      <find>addFromGoodsDetailSuccess</find>
+      <find>findByUserId</find>
+      <find>addSuccess</find>
+      <find>clearCheckedByUserId</find>
+      <find>updateCount</find>
+      <find>List</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>${pageContext.request.contextPath}</replace>
+      <replace>r</replace>
+      <replace>src=&quot;${pageContext.request.contextPath}/</replace>
+      <replace>&lt;body style=&quot;padding:0px;&quot;&gt;</replace>
+      <replace>checkPwd</replace>
+      <replace>.jsp</replace>
+      <replace>${pageContext.request.contextPath}/</replace>
+      <replace>15</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
+          <option name="moduleName" value="PhoneStore" />
+          <option name="title" value="PhoneStore (Bundled Groovy 2.4.12)" />
+        </Entry>
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/web/css/shopCart.css" />
+        <option value="$PROJECT_DIR$/src/com/action/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/com/dao/News/NewsDao.java" />
+        <option value="$PROJECT_DIR$/src/com/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/src/com/dao/Goods/IGoodsDao.java" />
+        <option value="$PROJECT_DIR$/web/jsp/personal.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/commentManage.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/feedbackAdd.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/feedbackUpdate.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/manageView.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/newsAdd.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/typeManage.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/userCheck.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/userUpdatePwd.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/userManage.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/orderManage.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/newsManage.jsp" />
+        <option value="$PROJECT_DIR$/src/com/action/FeedbackAction.java" />
+        <option value="$PROJECT_DIR$/src/com/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/com/dao/Order/IOrderDao.java" />
+        <option value="$PROJECT_DIR$/src/com/dao/Order/OrderDao.java" />
+        <option value="$PROJECT_DIR$/web/jsp/goodsAdd.jsp" />
+        <option value="$PROJECT_DIR$/src/com/action/NewsAction.java" />
+        <option value="$PROJECT_DIR$/src/com/service/NewsService.java" />
+        <option value="$PROJECT_DIR$/web/jsp/newsUpdate.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/newsList.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dao/Goods/GoodsDao.java" />
+        <option value="$PROJECT_DIR$/web/jsp/commentAdd.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/commentUpdate.jsp" />
+        <option value="$PROJECT_DIR$/src/com/action/CartAction.java" />
+        <option value="$PROJECT_DIR$/web/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/error.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/cart.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/commentList.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/goodsDetail.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/feedbackManage.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/typeUpdate.jsp" />
+        <option value="$PROJECT_DIR$/src/com/service/TypeService.java" />
+        <option value="$PROJECT_DIR$/web/jsp/home.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/goodsList.jsp" />
+        <option value="$PROJECT_DIR$/src/com/action/GoodsAction.java" />
+        <option value="$PROJECT_DIR$/src/struts.xml" />
+        <option value="$PROJECT_DIR$/web/jsp/goodsManage.jsp" />
+        <option value="$PROJECT_DIR$/src/com/action/TypeAction.java" />
+        <option value="$PROJECT_DIR$/web/jsp/typeAdd.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/goodsUpdate.jsp" />
+        <option value="$PROJECT_DIR$/src/com/action/OrderAction.java" />
+        <option value="$PROJECT_DIR$/web/jsp/checkOrder.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/orderUpdate.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="760" />
+    <option name="y" value="23" />
+    <option name="width" value="800" />
+    <option name="height" value="860" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>HtmlDeprecatedTag</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PhoneStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhoneStore" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JPA.DatabaseSchemaImportDialog" value="8a3e4d33-4b7e-4cd5-8595-55b3eb7b8557" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20229885" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="phonestore" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IDEA\PhoneStore\lib" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.view" />
+      <recent name="com.entity" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\IDEA\PhoneStore\src" />
+      <recent name="F:\IDEA\PhoneStore\web\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.36">
+    <configuration name="testAction.test" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="PhoneStore" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testAction" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+      <option name="HEIGHT" value="0" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="testAction.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="PhoneStore" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testAction" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="index.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/alipay/index.jsp" />
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tomcat 8.0.36" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.36" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="PhoneStore:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_0_36_PhoneStore" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="12775" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="PhoneStore:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="personal.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.0.36" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jsp/personal.jsp" />
+      <deployment>
+        <artifact name="PhoneStore:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="personal_jsp_PhoneStore" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="PhoneStore:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="user2Admin.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.0.36" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jsp/user2Admin.jsp" />
+      <deployment>
+        <artifact name="PhoneStore:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="user2Admin_jsp_PhoneStore" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="PhoneStore:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.0.36" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.testAction.test" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.personal.jsp" />
+      <item index="3" class="java.lang.String" itemvalue="Android JUnit.testAction.test" />
+      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.user2Admin.jsp" />
+      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.index.jsp" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.jsp" />
+        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.user2Admin.jsp" />
+        <item index="2" class="java.lang.String" itemvalue="Android JUnit.testAction.test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.testAction.test" />
+        <item index="4" class="java.lang.String" itemvalue="Tomcat Server.personal.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00e04d74-5fed-4721-b533-dc4d4212a69a" name="Default" comment="" />
+      <created>1522984343560</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522984343560</updated>
+      <workItem from="1522984351944" duration="2464000" />
+      <workItem from="1522989436896" duration="722000" />
+      <workItem from="1522991910385" duration="24040000" />
+      <workItem from="1523080991858" duration="4425000" />
+      <workItem from="1523196639021" duration="575000" />
+      <workItem from="1523197921828" duration="1697000" />
+      <workItem from="1524989909325" duration="1424000" />
+      <workItem from="1524992572124" duration="3814000" />
+      <workItem from="1525067498759" duration="733000" />
+      <workItem from="1525068737435" duration="1100000" />
+      <workItem from="1525073524432" duration="1026000" />
+      <workItem from="1525075559758" duration="2062000" />
+      <workItem from="1525151493772" duration="3658000" />
+      <workItem from="1525185580466" duration="644000" />
+      <workItem from="1525226562630" duration="9698000" />
+      <workItem from="1525239070963" duration="4325000" />
+      <workItem from="1525244802542" duration="466000" />
+      <workItem from="1525245464187" duration="5289000" />
+      <workItem from="1525406993055" duration="17335000" />
+      <workItem from="1525489174340" duration="27453000" />
+      <workItem from="1525610690991" duration="3347000" />
+      <workItem from="1525668596936" duration="20839000" />
+      <workItem from="1525764950837" duration="3959000" />
+      <workItem from="1525792900299" duration="40229000" />
+      <workItem from="1525917631136" duration="1763000" />
+      <workItem from="1525919528809" duration="5778000" />
+      <workItem from="1525955237336" duration="4292000" />
+      <workItem from="1526001523286" duration="3528000" />
+      <workItem from="1526091169021" duration="20580000" />
+      <workItem from="1526178372342" duration="17149000" />
+      <workItem from="1526264264920" duration="37446000" />
+      <workItem from="1526367134952" duration="15936000" />
+      <workItem from="1526434323080" duration="38009000" />
+      <workItem from="1526521640656" duration="24135000" />
+      <workItem from="1526609707585" duration="11063000" />
+      <workItem from="1526655832830" duration="4238000" />
+      <workItem from="1526660721528" duration="2012000" />
+      <workItem from="1526694916369" duration="107000" />
+      <workItem from="1526695072952" duration="22030000" />
+      <workItem from="1526778433516" duration="3212000" />
+      <workItem from="1526797322194" duration="31079000" />
+      <workItem from="1526956429977" duration="15880000" />
+      <workItem from="1526979936607" duration="1051000" />
+      <workItem from="1527058677174" duration="2153000" />
+      <workItem from="1527094078377" duration="3126000" />
+      <workItem from="1527127782205" duration="10602000" />
+      <workItem from="1527165951203" duration="2964000" />
+      <workItem from="1527226125352" duration="2826000" />
+      <workItem from="1527582731933" duration="360000" />
+      <workItem from="1527591942901" duration="56000" />
+      <workItem from="1527595884598" duration="1586000" />
+      <workItem from="1527600462718" duration="9598000" />
+      <workItem from="1527647506527" duration="20550000" />
+      <workItem from="1527733499743" duration="591000" />
+      <workItem from="1527816168120" duration="23603000" />
+      <workItem from="1527875432849" duration="4375000" />
+      <workItem from="1527906930318" duration="26532000" />
+      <workItem from="1527990641578" duration="27859000" />
+      <workItem from="1528085573712" duration="1216000" />
+      <workItem from="1528093421159" duration="4501000" />
+      <workItem from="1528099437948" duration="9324000" />
+      <workItem from="1528118039907" duration="11075000" />
+      <workItem from="1528174420979" duration="30365000" />
+      <workItem from="1528218005066" duration="1693000" />
+      <workItem from="1528219901628" duration="852000" />
+      <workItem from="1528248559580" duration="1083000" />
+      <workItem from="1528251802724" duration="6477000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="testAction_test - 2018.05.16 at 14h 24m 56s.xml">
+      <configuration name="testAction.test" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="testAction_test - 2018.05.16 at 14h 25m 02s.xml">
+      <configuration name="testAction.test" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="testAction_test - 2018.05.16 at 14h 26m 44s.xml">
+      <configuration name="testAction.test" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="testAction_test - 2018.05.16 at 14h 31m 50s.xml">
+      <configuration name="testAction.test" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="testAction_test - 2018.05.16 at 14h 33m 24s.xml">
+      <configuration name="testAction.test" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="testAction_test - 2018.05.16 at 14h 38m 33s.xml">
+      <configuration name="testAction.test" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="testAction_test - 2018.05.21 at 23h 33m 52s.xml">
+      <configuration name="testAction.test" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="testAction_test - 2018.05.21 at 23h 34m 25s.xml">
+      <configuration name="testAction.test" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="testAction_test - 2018.05.22 at 15h 53m 31s.xml">
+      <configuration name="testAction.test" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="testAction_test - 2018.05.22 at 15h 57m 36s.xml">
+      <configuration name="testAction.test" configurationId="AndroidJUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="643979000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42510122" sideWeight="0.50899744" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32793522" sideWeight="0.4974293" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14460154" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18830334" sideWeight="0.58913046" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39811066" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32793522" sideWeight="0.48714653" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32793522" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32793522" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35675675" sideWeight="0.49100256" order="15" side_tool="false" content_ui="tabs" x="0" y="284" width="1600" height="292" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32793522" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4554054" sideWeight="0.47505423" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17352185" sideWeight="0.5249458" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18830334" sideWeight="0.41295546" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17930591" sideWeight="0.57172555" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.4974293" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38046274" sideWeight="0.50877196" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32793522" sideWeight="0.48843187" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="优化系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化系统" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bean/JsonOption.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/action/FeedbackAction.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/action/CartAction.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/action/CartAction.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/action/OrderAction.java</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/action/FeedbackAction.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/action/NewsAction.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="37" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/jsp/typeManage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="183" column="23" lean-forward="false" selection-start-line="183" selection-start-column="23" selection-end-line="183" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/newsManage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="153" column="96" lean-forward="false" selection-start-line="153" selection-start-column="96" selection-end-line="153" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/userCheck.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="168" column="23" lean-forward="false" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/commentManage.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/com/dao/Order/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="175" column="46" lean-forward="false" selection-start-line="175" selection-start-column="46" selection-end-line="175" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/Order/IOrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="82" column="59" lean-forward="false" selection-start-line="82" selection-start-column="59" selection-end-line="82" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="152" column="48" lean-forward="true" selection-start-line="152" selection-start-column="48" selection-end-line="152" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/newsAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="106" column="64" lean-forward="true" selection-start-line="106" selection-start-column="64" selection-end-line="106" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/action/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="82" column="39" lean-forward="false" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/entity/TbUserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/action/NewsAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="118" column="24" lean-forward="true" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/NewsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/News/NewsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/newsUpdate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="131" column="160" lean-forward="false" selection-start-line="131" selection-start-column="160" selection-end-line="131" selection-end-column="160" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/newsList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="57" column="10" lean-forward="false" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/ognl.jar!/ognl/OgnlRuntime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="1039" column="0" lean-forward="false" selection-start-line="1039" selection-start-column="0" selection-end-line="1039" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-aop-4.3.15.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="488" column="0" lean-forward="false" selection-start-line="488" selection-start-column="0" selection-end-line="488" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/Goods/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bean/GoodsList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/commentAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="171" column="6" lean-forward="false" selection-start-line="171" selection-start-column="6" selection-end-line="171" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/commentUpdate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="198" column="6" lean-forward="false" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-237">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/loginError.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="163" column="7" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="163" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="101" column="26" lean-forward="true" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/personal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="120" column="155" lean-forward="false" selection-start-line="120" selection-start-column="61" selection-end-line="120" selection-end-column="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/goodsDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="122" column="55" lean-forward="true" selection-start-line="122" selection-start-column="55" selection-end-line="122" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/commentList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="95" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/action/CommentAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648">
+          <caret line="57" column="70" lean-forward="false" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/feedbackManage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3075">
+          <caret line="149" column="128" lean-forward="false" selection-start-line="149" selection-start-column="128" selection-end-line="149" selection-end-column="128" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/action/FeedbackAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="39" column="55" lean-forward="false" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/listener/OnlineListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/service/TypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="56" column="39" lean-forward="false" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+          <folding>
+            <element signature="e#1513#1514#0" expanded="false" />
+            <element signature="e#1559#1560#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/typeUpdate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="106" column="66" lean-forward="false" selection-start-line="106" selection-start-column="66" selection-end-line="106" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1775">
+          <caret line="71" column="49" lean-forward="true" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/goodsList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2462">
+          <caret line="165" column="38" lean-forward="false" selection-start-line="165" selection-start-column="38" selection-end-line="165" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/action/GoodsAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="141" column="27" lean-forward="false" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="27" />
+          <folding>
+            <element signature="method#delete#0;class#GoodsAction#0" expanded="false" />
+            <element signature="method#toUpdatePage#0;class#GoodsAction#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/goodsAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="132" column="90" lean-forward="true" selection-start-line="132" selection-start-column="90" selection-end-line="132" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/typeAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="109" column="58" lean-forward="false" selection-start-line="109" selection-start-column="58" selection-end-line="109" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/goodsUpdate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="180" column="38" lean-forward="false" selection-start-line="172" selection-start-column="82" selection-end-line="180" selection-end-column="38" />
+          <folding>
+            <marker date="1528254371476" expanded="false" signature="10298:10309" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/action/TypeAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="81" column="65" lean-forward="false" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="65" />
+          <folding>
+            <element signature="e#2475#2476#0" expanded="false" />
+            <element signature="e#2519#2520#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1952">
+          <caret line="106" column="23" lean-forward="false" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/checkOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <marker date="1528255069623" expanded="false" signature="2257:2290" ph="..." />
+            <marker date="1528255069623" expanded="false" signature="2534:2567" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/orderUpdate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="81" column="62" lean-forward="false" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="62" />
+          <folding>
+            <marker date="1528255069560" expanded="false" signature="2206:2239" ph="..." />
+            <marker date="1528255069560" expanded="false" signature="2483:2516" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/goodsManage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="139" column="41" lean-forward="false" selection-start-line="139" selection-start-column="41" selection-end-line="139" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/orderManage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret line="114" column="33" lean-forward="false" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/action/OrderAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="79" column="26" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="48" column="86" lean-forward="false" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/action/CartAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="74" column="55" lean-forward="false" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/CartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/Cart/CartDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>PhoneStore:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20229885" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (PhoneStore)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20229885" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jdk1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20229885" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20229885" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|PhoneStore</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20229885" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Struts 2-2.5.14.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20229885" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

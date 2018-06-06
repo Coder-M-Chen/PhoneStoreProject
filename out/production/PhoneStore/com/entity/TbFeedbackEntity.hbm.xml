@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.entity.TbFeedbackEntity" table="tb_feedback" schema="phonestore">
+        <id name="feedbackId">
+            <column name="FeedbackID" sql-type="char(14)" length="14"/>
+        </id>
+        <property name="feedbackOwner">
+            <column name="FeedbackOwner" sql-type="char(11)" length="11"/>
+        </property>
+        <property name="feedbackBody">
+            <column name="FeedbackBody" sql-type="varchar(500)" length="500"/>
+        </property>
+        <property name="feedbackType">
+            <column name="FeedbackType" sql-type="varchar(20)" length="20"/>
+        </property>
+        <property name="feedbackMore">
+            <column name="FeedbackMore" sql-type="varchar(500)" length="500" not-null="true"/>
+        </property>
+        <property name="feedbackTime">
+            <column name="FeedbackTime" sql-type="datetime(19)"/>
+        </property>
+        <property name="feedbackState">
+            <column name="FeedbackState" sql-type="varchar(10)" length="10"/>
+        </property>
+        <property name="feedbackExecutor">
+            <column name="FeedbackExecutor" sql-type="char(11)" length="11" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

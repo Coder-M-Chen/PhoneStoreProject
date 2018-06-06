@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!--引入外部的属性文件-->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <!--配置连接池-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driverClass}"/>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/phonestore"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="123456"/>
+    </bean>
+
+    <!--配置hibernate的相关属性-->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <!-- 注入连接池对象 -->
+        <property name="dataSource" ref="dataSource"></property>
+
+        <!-- hibernate常用配置 -->
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
+                <prop key="show_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+                <prop key="hibernate.connection.url">jdbc:mysql://localhost:3306/phonestore</prop>
+                <prop key="hibernate.connection.driver_class">com.mysql.jdbc.Driver</prop>
+
+                <!-- 是否需要打印sql语句 -->
+                <prop key="hibernate.show_sql">true</prop>
+                <!-- 是否对打印的sql语句进行格式化（容易阅读） -->
+                <prop key="hibernate.format_sql">true</prop>
+            </props>
+        </property>
+        <property name="mappingLocations">
+            <list>
+                <value>classpath:com/entity/TbCommentEntity.hbm.xml</value>
+                <value>classpath:com/entity/TbFeedbackEntity.hbm.xml</value>
+                <value>classpath:com/entity/TbGoodsEntity.hbm.xml</value>
+                <value>classpath:com/entity/TbNewsEntity.hbm.xml</value>
+                <value>classpath:com/entity/TbOrderEntity.hbm.xml</value>
+                <value>classpath:com/entity/TbTypeEntity.hbm.xml</value>
+                <value>classpath:com/entity/TbUserEntity.hbm.xml</value>
+                <value>classpath:com/entity/TbCartEntity.hbm.xml</value>
+                <!--<value>classpath:com/view/CartViewEntity.hbm.xml</value>-->
+            </list>
+        </property>
+        <property name="annotatedClasses">
+            <list>
+                <value>com.entity.TbCommentEntity</value>
+                <value>com.entity.TbFeedbackEntity</value>
+                <value>com.entity.TbGoodsEntity</value>
+                <value>com.entity.TbNewsEntity</value>
+                <value>com.entity.TbOrderEntity</value>
+                <value>com.entity.TbTypeEntity</value>
+                <value>com.entity.TbUserEntity</value>
+                <value>com.entity.TbCartEntity</value>
+                <!--<value>com.view.CartViewEntity</value>-->
+            </list>
+        </property>
+    </bean>
+
+    <!--用户注册模块-->
+
+
+    <!--用户模块-->
+    <!--配置Action的类-->
+    <bean id="userAction" class="com.action.UserAction" scope="prototype">
+        <!--手动注入Service类-->
+        <property name="userService" ref="userService"/>
+    </bean>
+    <!--配置Service的类-->
+    <bean id="userService" class="com.service.UserService">
+        <property name="userDao" ref="userDao"/>
+    </bean>
+
+    <!--类型模块-->
+    <bean id="typeAction" class="com.action.TypeAction" scope="prototype">
+        <property name="typeService" ref="typeService"/>
+    </bean>
+    <bean id="typeService" class="com.service.TypeService">
+        <property name="typeDao" ref="typeDao"/>
+    </bean>
+
+    <!--评论模块-->
+    <bean id="commentAction" class="com.action.CommentAction">
+        <property name="commentService" ref="commentService"/>
+    </bean>
+    <bean id="commentService" class="com.service.CommentService">
+        <property name="commentDao" ref="commentDao"/>
+    </bean>
+
+    <!--反馈模块-->
+    <bean id="feedbackAction" class="com.action.FeedbackAction">
+        <property name="feedbackService" ref="feedbackService"/>
+    </bean>
+    <bean id="feedbackService" class="com.service.FeedbackService">
+        <property name="feedbackDao" ref="feedbackDao"/>
+    </bean>
+
+    <!--新闻模块-->
+    <bean id="newsAction" class="com.action.NewsAction">
+        <property name="newsService" ref="newsService"/>
+    </bean>
+    <bean id="newsService" class="com.service.NewsService">
+        <property name="newsDao" ref="newsDao"/>
+    </bean>
+
+    <!--订单模块-->
+    <bean id="orderAction" class="com.action.OrderAction">
+        <property name="orderService" ref="orderService"/>
+    </bean>
+    <bean id="orderService" class="com.service.OrderService">
+        <property name="orderDao" ref="orderDao"/>
+    </bean>
+
+    <!--商品模块-->
+    <bean id="goodsAction" class="com.action.GoodsAction">
+        <property name="goodsService" ref="goodsService"/>
+    </bean>
+    <bean id="goodsService" class="com.service.GoodsService">
+        <property name="goodsDao" ref="goodsDao"/>
+    </bean>
+
+    <!--购物车模块-->
+    <bean id="cartAction" class="com.action.CartAction">
+        <property name="cartService" ref="cartService"/>
+    </bean>
+    <bean id="cartService" class="com.service.CartService">
+        <property name="cartDao" ref="cartDao"/>
+    </bean>
+
+    <!--配置DAO的类-->
+    <bean id="userDao" class="com.dao.User.UserDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="goodsDao" class="com.dao.Goods.GoodsDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="orderDao" class="com.dao.Order.OrderDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="typeDao" class="com.dao.Type.TypeDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="feedbackDao" class="com.dao.Feedback.FeedbackDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="commentDao" class="com.dao.Comment.CommentDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="newsDao" class="com.dao.News.NewsDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="cartDao" class="com.dao.Cart.CartDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <!--<bean id="cartViewDao" class="com.dao.CartView.CartViewDao">-->
+        <!--<property name="sessionFactory" ref="sessionFactory"/>-->
+    <!--</bean>-->
+
+    <!--事务管理器-->
+    <bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <!--开启注解事务-->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+</beans>
