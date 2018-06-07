@@ -49,6 +49,7 @@ public class GoodsAction extends ActionSupport implements ModelDriven<TbGoodsEnt
         Date date = new Date();
         DateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
         goodsEntity.setGoodsId(dateFormat.format(date));
+        goodsEntity.setGoodsDiscount(100);
         try {
             goodsService.add(goodsEntity);
         }catch (Exception e){

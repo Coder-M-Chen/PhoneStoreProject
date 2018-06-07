@@ -54,7 +54,7 @@
         <h1 class="logo"><a href="${pageContext.request.contextPath}/index.jsp"><img src="${pageContext.request.contextPath}/images/zx-logo.png" alt="#"></a></h1>
         <div class="right">
             <ul style="float:left;">
-                <li><a href="#">首页</a></li>
+                <li><a href="${pageContext.request.contextPath}/index.jsp">首页</a></li>
                 <li><a href="goods_findAllUser.action">所有商品</a></li>
             </ul>
 
@@ -79,7 +79,7 @@
                     <img src="${pageContext.request.contextPath}/images/<s:property value="#session.goodsEntity.goodsId"/>.png" style="display: block;" data-zoom-image="${pageContext.request.contextPath}/images/<s:property value="#session.goodsEntity.goodsId"/>.png" class="zoom-01">
                 </div>
             </div>
-            <div class="texts">
+            <div class="texts" style="width: 624px;">
                 <div class="mainInfo">
                     <h2 id="descript-info"><s:property value="#session.goodsEntity.goodsName"/></h2><br/>
                     <span></span>
@@ -87,50 +87,79 @@
                     <p class="price">¥<s:property value="#session.goodsEntity.goodsPrice"/></p>
                 </div>
                 <div class="commonInfo">
-                    <%--<dl>--%>
-                        <%--<dt><span>颜色<em></em></span><i>:</i></dt>--%>
+                    <dl>
+                        <dt><span>颜色<em></em></span><i>:</i></dt>
 
-                        <%--<dd>--%>
-                            <%--<input type="radio" name="goodSet" value="暗夜灰" checked/>--%>
-                            <%--<span>暗夜灰</span>--%>
-                        <%--</dd>--%>
-                        <%--<dd>--%>
-                            <%--<input type="radio" name="goodSet" value="闪烁银"/>--%>
-                            <%--<span>闪烁银</span>--%>
-                        <%--</dd>--%>
-                    <%--</dl>--%>
-                    <%--<dl>--%>
-                        <%--<dt><span>制式<em></em></span><i>:</i></dt>--%>
-                        <%--<dd><span>全网通</span></dd>--%>
-                    <%--</dl>--%>
-                    <%--<dl>--%>
-                        <%--<dt><span>版本<em></em></span><i>:</i></dt>--%>
-                        <%--<dd><span>4GB+6GB</span></dd>--%>
-                    <%--</dl>--%>
+                        <form id="myForm" method="post">
+                            <dd>
+                                <input type="radio" name="goodSet" value="暗夜灰" checked/>
+                                <span>暗夜灰</span>
+                            </dd>
+                            <dd>
+                                <input type="radio" name="goodSet" value="闪烁银"/>
+                                <span>闪烁银</span>
+                            </dd>
+                        </form>
+                    </dl>
+                    <dl>
+                        <dt><span>制式<em></em></span><i>:</i></dt>
+                        <dd><span>全网通</span></dd>
+                    </dl>
+                    <dl>
+                        <dt><span>版本<em></em></span><i>:</i></dt>
+                        <dd><span>4GB+6GB</span></dd>
+                    </dl>
 
-                        <dl>
-                            <%--<dt><span>颜色<em></em></span><i>:</i></dt>--%>
-
-                            <%--<dd>--%>
-                            <%--<input type="radio" name="goodSet" value="暗夜灰" checked/>--%>
-                            <%--<span>暗夜灰</span>--%>
-                            <%--</dd>--%>
-                            <%--<dd>--%>
-                            <%--<input type="radio" name="goodSet" value="闪烁银"/>--%>
-                            <%--<span>闪烁银</span>--%>
-                            <%--</dd>--%>
-                            <dt><span>版本<em></em></span><i>:</i></dt>
-                            <dd><span>官方标配版</span></dd>
-                        </dl>
                     <ul class="car">
                         <s:if test="#session.userEntity!=null">
-                            <li><a href="cart_add.action" class="buy">加入购物车</a></li>
-                            <li><a href="cart_addGoodAndPay.action" class="buy">立即购买</a></li>
+                            <li>
+                                <button onclick="fun1()" class="buy">加入购物车</button>
+                            </li>
+                            <li>
+                                <button onclick="fun2()" class="buy">直接购买</button>
+                            </li>
+                            <script>
+                                function fun1() {
+                                    var goodsSetRadio=document.getElementsByName("goodSet");
+                                    var goodsSet;
+                                    for (var i = 0;i<goodsSetRadio.length;i++){
+                                        if(goodsSetRadio[i].checked){
+                                            goodsSet = goodsSetRadio[i].value;
+                                        }
+                                    }
+                                    var myForm = document.getElementById("myForm");
+                                    myForm.setAttribute('action','cart_add.action');
+                                    myForm.submit();
+                                    console.log(myForm.formData);
+                                }
+                                function fun2() {
+                                    var goodsSetRadio=document.getElementsByName("goodSet");
+                                    var goodsSet;
+                                    for (var i = 0;i<goodsSetRadio.length;i++){
+                                        if(goodsSetRadio[i].checked){
+                                            goodsSet = goodsSetRadio[i].value;
+                                        }
+                                    }
+                                    var myForm = document.getElementById("myForm");
+                                    myForm.setAttribute('action','cart_addGoodAndPay.action');
+                                    myForm.submit();
+                                    console.log(myForm.formData);
+                                }
+                            </script>
                         </s:if>
                         <s:else>
                             <li><a href="${pageContext.request.contextPath}/jsp/login.jsp" class="buy">登录</a></li>
                         </s:else>
                     </ul>
+                    <%--<ul class="car">--%>
+                        <%--<s:if test="#session.userEntity!=null">--%>
+                            <%--<li><a href="cart_add.action" class="buy">加入购物车</a></li>--%>
+                            <%--<li><a href="cart_addGoodAndPay.action" class="buy">立即购买</a></li>--%>
+                        <%--</s:if>--%>
+                        <%--<s:else>--%>
+                            <%--<li><a href="${pageContext.request.contextPath}/jsp/login.jsp" class="buy">登录</a></li>--%>
+                        <%--</s:else>--%>
+                    <%--</ul>--%>
                 </div>
             </div>
         </div>

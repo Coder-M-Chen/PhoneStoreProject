@@ -135,7 +135,11 @@ value="#session.userEntity.userId"/>.png">
                                     <td align="center"><s:property value="#d.feedbackType"/></td>
                                     <td align="center"><s:property value="#d.feedbackBody"/></td>
                                     <td align="center"><s:property value="#d.feedbackState"/></td>
-                                    <td align="center"><s:property value="#d.feedbackExecutor"/></td>
+                                    <td align="center">
+                                        <s:if test="#d.feedbackState=='已受理'.toString()">
+                                            <s:property value="#d.feedbackExecutor"/>
+                                        </s:if>
+                                    </td>
                                     <td align="center"><a href="${pageContext.request.contextPath}/feedback_toUpdatePage.action?feedbackId=<s:property value="#d.feedbackId"/>">查看详情</a></td>
                                 </tr>
                             </s:iterator>
@@ -169,7 +173,7 @@ value="#session.userEntity.userId"/>.png">
             <!--inner block end here-->
             <!--copy rights start here-->
             <div class="copyrights">
-                <p>Copyright &copy; 2016.Company name All rights reserved.</p>
+                <p>Copyright &copy; 2018.Company name All rights reserved.</p>
             </div>
             <!--COPY rights end here-->
         </div>

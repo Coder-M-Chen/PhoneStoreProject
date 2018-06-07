@@ -130,14 +130,14 @@
                             <div class="gitment-editor-header">
                                 <nav class="gitment-editor-tabs">
                                     <button class="gitment-editor-tab gitment-selected">编辑</button>
+                                    <select name="commentStar">
+                                        <option value="5" selected>5分</option>
+                                        <option value="4">4分</option>
+                                        <option value="3">3分</option>
+                                        <option value="2">2分</option>
+                                        <option value="1">1分</option>
+                                    </select>
                                 </nav>
-                                <select name="commentStar">
-                                    <option value="5" selected>5分</option>
-                                    <option value="4">4分</option>
-                                    <option value="3">3分</option>
-                                    <option value="2">2分</option>
-                                    <option value="1">1分</option>
-                                </select>
                             </div>
                             <div class="gitment-editor-body">
                                 <div class="gitment-editor-write-field">

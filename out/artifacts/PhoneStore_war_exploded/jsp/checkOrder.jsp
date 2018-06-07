@@ -16,32 +16,32 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/shopCart.css" />
 </head>
 <body id="body1">
-<header>
-    <%--<div class="nav-box">--%>
-    <div class="">
-        <div class="nav">
-            <ul class="nav-left">
-                <li><a href="#">WHUT Phone</a></li>
-            </ul>
-            <ul class="nav-right">
-                <s:if test="#session.userEntity!=null">
-                    <li><a href="${pageContext.request.contextPath}/jsp/personal.jsp"><s:property value="#session.userEntity.vName"/></a> </li>
-                    <li><a href="${pageContext.request.contextPath}/user_logOff.action">注销</a> </li>
-                </s:if>
-                <s:if test="#session.userEntity==null">
-                    <li><a href="${pageContext.request.contextPath}/jsp/login.jsp">登录</a></li>
-                    <li><a href="${pageContext.request.contextPath}/jsp/register.jsp">注册</a></li>
-                </s:if>
-            </ul>
-            <s:if test="#session.userEntity!=null">
-                <div class="shopping-car"><a href="${pageContext.request.contextPath}/cart_findByUserId.action"><span class="glyphicon glyphicon-shopping-cart" style="color: #3E82FF;margin-right: 6px;"></span>购物车</a></div>
-            </s:if>
-            <s:else>
-                <div class="shopping-car"><a href="${pageContext.request.contextPath}/jsp/login.jsp"><span class="glyphicon glyphicon-shopping-cart" style="color: #3E82FF;margin-right: 6px;"></span>购物车</a></div>
-            </s:else>
-        </div>
-    </div>
-</header>
+<%--<header>--%>
+    <%--&lt;%&ndash;<div class="nav-box">&ndash;%&gt;--%>
+    <%--<div class="">--%>
+        <%--<div class="nav">--%>
+            <%--<ul class="nav-left">--%>
+                <%--<li><a href="#">WHUT Phone</a></li>--%>
+            <%--</ul>--%>
+            <%--<ul class="nav-right">--%>
+                <%--<s:if test="#session.userEntity!=null">--%>
+                    <%--<li><a href="${pageContext.request.contextPath}/jsp/personal.jsp"><s:property value="#session.userEntity.vName"/></a> </li>--%>
+                    <%--<li><a href="${pageContext.request.contextPath}/user_logOff.action">注销</a> </li>--%>
+                <%--</s:if>--%>
+                <%--<s:if test="#session.userEntity==null">--%>
+                    <%--<li><a href="${pageContext.request.contextPath}/jsp/login.jsp">登录</a></li>--%>
+                    <%--<li><a href="${pageContext.request.contextPath}/jsp/register.jsp">注册</a></li>--%>
+                <%--</s:if>--%>
+            <%--</ul>--%>
+            <%--<s:if test="#session.userEntity!=null">--%>
+                <%--<div class="shopping-car"><a href="${pageContext.request.contextPath}/cart_findByUserId.action"><span class="glyphicon glyphicon-shopping-cart" style="color: #3E82FF;margin-right: 6px;"></span>购物车</a></div>--%>
+            <%--</s:if>--%>
+            <%--<s:else>--%>
+                <%--<div class="shopping-car"><a href="${pageContext.request.contextPath}/jsp/login.jsp"><span class="glyphicon glyphicon-shopping-cart" style="color: #3E82FF;margin-right: 6px;"></span>购物车</a></div>--%>
+            <%--</s:else>--%>
+        <%--</div>--%>
+    <%--</div>--%>
+<%--</header>--%>
 
 <div class="box">
 

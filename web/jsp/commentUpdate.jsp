@@ -126,7 +126,7 @@ value="#session.userEntity.userId"/>.png">
             <!--inner block end here-->
             <!--copy rights start here-->
             <div class="copyrights">
-                <p>Copyright &copy; 2016.Company name All rights reserved.</p>
+                <p>Copyright &copy; 2018.Company name All rights reserved.</p>
             </div>
             <!--COPY rights end here-->
         </div>

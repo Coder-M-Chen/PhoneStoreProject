@@ -57,11 +57,11 @@
         <div class="product-info">
             <s:iterator value="#session.goodsList.list" var="d">
                 <ul>
-                    <li>
-                        <s:if test="#d.goodCheck=='T'">
+                    <li style="margin-top: 40px;">
+                        <s:if test="#d.goodCheck=='T'.toString()">
                             <a href="cart_checkGood.action?currCartId=<s:property value="#d.cartId"/>">已选</a>
                         </s:if>
-                        <s:elseif test="#d.goodCheck=='F'">
+                        <s:elseif test="#d.goodCheck=='F'.toString()">
                             <a href="cart_checkGood.action?currCartId=<s:property value="#d.cartId"/>">未选</a>
                         </s:elseif>
                     </li>

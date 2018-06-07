@@ -235,4 +235,16 @@ public class OrderAction extends ActionSupport implements ModelDriven<TbOrderEnt
             return findByUserId();
         }
     }
+
+    public String updateCommentStatus(){
+        TbOrderEntity currOrderEntity = (TbOrderEntity)ActionContext.getContext().getSession().get("orderEntity");
+        if(currOrderEntity!=null){
+            currOrderEntity.setOrderState("已评论");
+            orderService.update(currOrderEntity);
+            ActionContext.getContext().getSession().remove("orderEntity");
+            ActionContext.getContext().getSession().put("orderEntity", currOrderEntity);
+        }
+        return "updateCommentStatusSuccess";
+
+    }
 }

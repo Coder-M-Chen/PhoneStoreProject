@@ -170,15 +170,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     <input type="text" id="goodsPrice" name="goodsPrice" placeholder="9999" value="<s:property value="#session.goodsEntity.goodsPrice"/>">
                                 </div>
                             </div>
-                            <%--<div class="row clearfix" style="width: 100%">--%>
-                                <%--<div class="lbl">--%>
-                                    <%--<label for="goodsDiscount">--%>
-                                        <%--商品折扣</label>--%>
-                                <%--</div>--%>
-                                <%--<div class="ctrl">--%>
-                                    <%--<input type="text" id="goodsDiscount" name="goodsDiscount" placeholder="100" value="<s:property value="#session.goodsEntity.goodsDiscount"/>">--%>
-                                <%--</div>--%>
-                            <%--</div>--%>
                             <div class="row clearfix" style="width: 100%">
                                 <div class="lbl">
                                     <label for="goodsAmount">
@@ -221,7 +212,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <!--inner block end here-->
             <!--copy rights start here-->
             <div class="copyrights">
-                <p>Copyright &copy; 2016.Company name All rights reserved.</p>
+                <p>Copyright &copy; 2018.Company name All rights reserved.</p>
             </div>
             <!--COPY rights end here-->
         </div>

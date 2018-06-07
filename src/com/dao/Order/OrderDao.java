@@ -38,15 +38,8 @@ public class OrderDao extends HibernateDaoSupport implements IOrderDao {
 
     @Override
     public List<TbOrderEntity> findByOther(TbOrderEntity orderEntity) {
-        String hql = new String();
-        //根据订单状态查询
-        if(orderEntity.getOrderState()!=null){
-            hql = "from TbOrderEntity from orderState = ?";
-        }
-        if(hql!=null) {
-            return (List<TbOrderEntity>) this.getHibernateTemplate().find(hql, orderEntity.getOrderState());
-        }
-        return null;
+        String hql = "from TbOrderEntity where orderState = ? order by orderId desc";
+        return (List<TbOrderEntity>) this.getHibernateTemplate().find(hql, orderEntity.getOrderState());
     }
 
     @Override
@@ -61,20 +54,25 @@ public class OrderDao extends HibernateDaoSupport implements IOrderDao {
 
     @Override
     public List<TbOrderEntity> findByPage(int begin, int pageSize) {
-        DetachedCriteria criteria = DetachedCriteria.forClass(TbOrderEntity.class);
-        return (List<TbOrderEntity>) this.getHibernateTemplate().findByCriteria(criteria,begin,pageSize);
+        String hql = "from TbOrderEntity order by orderId desc";
+        List<TbOrderEntity> existList = (List<TbOrderEntity>) this.getHibernateTemplate().find(hql);
+        List<TbOrderEntity> list = new ArrayList<TbOrderEntity>();
+        for(int i = 0; i < pageSize&&begin + i < existList.size(); i++){
+            list.add(existList.get(begin + i));
+        }
+        return list;
     }
 
     @Override
     public List<TbOrderEntity> findByUserId(String userId) {
-        String hql = "from TbOrderEntity where userId = ?";
+        String hql = "from TbOrderEntity where userId = ? order by orderId desc";
         return (List<TbOrderEntity>) this.getHibernateTemplate().find(hql,userId);
     }
 
     @Override
     public List<TbOrderEntity> findByUserIdAndPage(String userId, int begin, int pageSize) {
 
-        String hql = "from TbOrderEntity where userId = ?";
+        String hql = "from TbOrderEntity where userId = ? order by orderId desc";
 
         List<TbOrderEntity> existList = (List<TbOrderEntity>) this.getHibernateTemplate().find(hql, userId);
         List<TbOrderEntity> list = new ArrayList<TbOrderEntity>();
@@ -97,7 +95,7 @@ public class OrderDao extends HibernateDaoSupport implements IOrderDao {
     @Override
     public List<TbOrderEntity> findByUserAndPageAndNoPay(String userId, int begin, int pageSize) {
 
-        String hql = "from TbOrderEntity where userId = ? and orderState = '待支付'";
+        String hql = "from TbOrderEntity where userId = ? and orderState = '待支付' order by orderId desc";
 
         List<TbOrderEntity> existList = (List<TbOrderEntity>) this.getHibernateTemplate().find(hql, userId);
         List<TbOrderEntity> list = new ArrayList<TbOrderEntity>();
@@ -119,7 +117,7 @@ public class OrderDao extends HibernateDaoSupport implements IOrderDao {
 
     @Override
     public List<TbOrderEntity> findByUserAndPageAndNoSend(String userId, int begin, int pageSize) {
-        String hql = "from TbOrderEntity where userId = ? and orderState = '待发货'";
+        String hql = "from TbOrderEntity where userId = ? and orderState = '待发货' order by orderId desc";
 
         List<TbOrderEntity> existList = (List<TbOrderEntity>) this.getHibernateTemplate().find(hql, userId);
         List<TbOrderEntity> list = new ArrayList<TbOrderEntity>();
@@ -151,7 +149,7 @@ public class OrderDao extends HibernateDaoSupport implements IOrderDao {
 
     @Override
     public List<TbOrderEntity> findNoSend(int begin, int pageSize) {
-        String hql = "from TbOrderEntity where orderState = '待发货'";
+        String hql = "from TbOrderEntity where orderState = '待发货' order by orderId desc";
 
         List<TbOrderEntity> existList = (List<TbOrderEntity>) this.getHibernateTemplate().find(hql);
         List<TbOrderEntity> list = new ArrayList<TbOrderEntity>();
@@ -173,7 +171,7 @@ public class OrderDao extends HibernateDaoSupport implements IOrderDao {
 
     @Override
     public List<TbOrderEntity> findNoPay(int begin, int pageSize) {
-        String hql = "from TbOrderEntity where orderState = '待支付'";
+        String hql = "from TbOrderEntity where orderState = '待支付' order by orderId desc";
 
         List<TbOrderEntity> existList = (List<TbOrderEntity>) this.getHibernateTemplate().find(hql);
         List<TbOrderEntity> list = new ArrayList<TbOrderEntity>();

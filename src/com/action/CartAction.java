@@ -110,7 +110,6 @@ public class CartAction extends ActionSupport implements ModelDriven<TbCartEntit
         Date date = new Date();
         DateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
         cartEntity.setCartId(dateFormat.format(date)+currUserEntity.getUserId());
-        cartEntity.setGoodSet("暗夜灰");
         cartEntity.setGoodName(currGoodEntity.getGoodsName());
         cartEntity.setGoodPrice(currGoodEntity.getGoodsPrice());
         cartEntity.setGoodCheck("T");
@@ -140,9 +139,9 @@ public class CartAction extends ActionSupport implements ModelDriven<TbCartEntit
 
     public String checkGood(){
         TbCartEntity currCartEntity = cartService.findById(currCartId);
-        if(currCartEntity.getGoodCheck()=="F"){
+        if(currCartEntity.getGoodCheck().equals("F")){
             currCartEntity.setGoodCheck("T");
-        }else {
+        }else if(currCartEntity.getGoodCheck().equals("T")) {
             currCartEntity.setGoodCheck("F");
         }
         cartService.update(currCartEntity);

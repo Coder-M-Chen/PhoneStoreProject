@@ -122,7 +122,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                             反馈详情</label>
                                     </div>
                                     <div class="ctrl">
-                                        <input type="text" id="feedbackBody" name="feedbackBody" value="<s:property value="#session.feedbackEntity.feedbackBody"/>">
+                                        <input type="text" id="feedbackBody" name="feedbackBody" value="<s:property value="#session.feedbackEntity.feedbackBody"/>" readonly>
                                     </div>
                                 </div>
                                 <s:if test="#session.userEntity.userType=='U'.toString()">
@@ -133,7 +133,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                 反馈状态</label>
                                         </div>
                                         <div class="ctrl">
-                                            <input type="text" id="feedbackState" name="feedbackState" value="<s:property value="#session.feedbackEntity.feedbackState"/>">
+                                            <input type="text" id="feedbackState" name="feedbackState" value="<s:property value="#session.feedbackEntity.feedbackState"/>" readonly>
                                         </div>
                                     </div>
                                 </s:if>
@@ -145,7 +145,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                 反馈回复</label>
                                         </div>
                                         <div class="ctrl">
-                                            <input type="text" id="feedbackMore" name="feedbackMore" value="<s:property value="#session.feedbackEntity.feedbackMore"/>">
+                                            <s:if test="#session.feedbackEntity.feedbackState=='已受理'.toString()">
+                                                <input type="text" id="feedbackMore" name="feedbackMore" value="<s:property value="#session.feedbackEntity.feedbackMore"/>">
+                                            </s:if>
+                                            <s:else>
+                                                <input type="text" id="feedbackMore" name="feedbackMore">
+                                            </s:else>
                                         </div>
                                     </div>
                                 </s:if>
@@ -155,7 +160,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         <input type="submit" name="submit" id="submit" class="submit" value="保存">
                                     </s:if>
                                     <s:else>
-                                        <a href="${pageContext.request.contextPath}/jsp/personal.jsp"><button value="返回"></button></a>
+                                        <button onclick="window.location.href='${pageContext.request.contextPath}/jsp/personal.jsp'" style="height: 30px;width: 100px;background: #ff0000;color: #FFFFFF;">返回</button>
                                     </s:else>
                                 </div>
                             </form>
@@ -167,7 +172,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <!--inner block end here-->
             <!--copy rights start here-->
             <div class="copyrights">
-                <p>Copyright &copy; 2016.Company name All rights reserved.</p>
+                <p>Copyright &copy; 2018.Company name All rights reserved.</p>
             </div>
             <!--COPY rights end here-->
         </div>

@@ -116,7 +116,7 @@
 
                 <li class="gitment-comment">
                     <a class="gitment-comment-avatar">
-                        <img class="gitment-comment-avatar-img" src="../images/default-avatar.png">
+                        <img class="gitment-comment-avatar-img" src="../images/<s:property value="#d.userId"/>.png">
                     </a>
                     <div class="gitment-comment-main">
                         <div class="gitment-comment-header">

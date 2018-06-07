@@ -4,6 +4,7 @@
 #main .info{
 	padding: 12px 32px;
 	background: #f5f5f5;
+	margin:0 120px;
 }
 #main .info ul{
 	overflow: hidden;
@@ -17,6 +18,7 @@
 	padding: 20px 30px;
 	padding-bottom: 70px;
 	overflow: hidden;
+	margin:0 120px;
 }
 #main .details .pic{
 	float: left;

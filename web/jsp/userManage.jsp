@@ -118,7 +118,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <th width="450" style="align-content: center">用户编号</th>
                                 <th width="450">用户昵称</th>
                                 <th width="450">真实姓名</th>
-                                <th width="450">身份证号</th>
+                                <%--<th width="450">身份证号</th>--%>
                                 <th width="450">手机号码</th>
                                 <th width="450">验证信息</th>
                                 <th  width="450" align="center">编辑</th>
@@ -131,7 +131,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     <td align="center"><s:property value="#d.vName"/></td>
                                     <td align="center"><s:property value="#d.rName"/></td>
                                     <td align="center"><s:property value="#d.phone"/></td>
-                                    <td align="center"><s:property value="#d.idCard"/></td>
+                                    <%--<td align="center"><s:property value="#d.idCard"/></td>--%>
                                     <td align="center"><s:property value="#d.certification"/></td>
                                     <td align="center"><a href="user_agreeUser2Admin.action?otherId=<s:property value="#d.userId"/>">审核通过</a></td>
                                 </tr>
@@ -165,7 +165,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <!--inner block end here-->
             <!--copy rights start here-->
             <div class="copyrights">
-                <p>Copyright &copy; 2016.Company name All rights reserved.</p>
+                <p>Copyright &copy; 2018.Company name All rights reserved.</p>
             </div>
             <!--COPY rights end here-->
         </div>

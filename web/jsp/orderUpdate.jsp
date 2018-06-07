@@ -93,12 +93,12 @@
                             <td>￥ <s:property value="#d.goodPrice"/></td>
                             <td><s:property value="#d.goodCount"/></td>
                             <td class="shop_price">￥<s:property value="#d.goodPrice*#d.goodCount"/></td>
-                            <s:if test="#session.orderEntity.orderState=='待评价'.toString()">
+                            <s:if test="#session.orderEntity.orderState=='待评价'.toString()&&#session.userEntity.userType=='U'.toString()">
                                 <td><a href="goods_toAddComment.action?goodId=<s:property value="#d.goodID"/>">评论</a></td>
                             </s:if>
-                            <s:elseif test="#session.orderEntity.orderState=='待发货'.toString()">
-                                <td>待发货</td>
-                            </s:elseif>
+                            <s:else>
+                                <td><s:property value="#session.orderEntity.orderState"/></td>
+                            </s:else>
                         </tr>
                     </s:iterator>
                 </table>

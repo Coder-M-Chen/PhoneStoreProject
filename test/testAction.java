@@ -11,7 +11,6 @@ import java.util.Date;
 public class testAction {
     @Test
     void test() {
-        JSONArray jsonArray = new JSONArray("");
-        System.out.println(jsonArray.toString());
+        System.out.println(MD5Encoding.MD5(""));
     }
 }

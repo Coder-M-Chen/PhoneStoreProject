@@ -62,7 +62,7 @@
         </action>
         <action name="comment_*" class="commentAction" method="{1}">
             <result name="findByIdSuccess" type="dispatcher">/jsp/commentUpdate.jsp</result>
-            <result name="addSuccess" type="dispatcher">jsp/orderUpdate.jsp</result>
+            <result name="addSuccess" type="redirectAction">order_updateCommentStatus.action</result>
             <result name="findFirstByGoodSuccess" type="dispatcher">/jsp/goodsDetail.jsp</result>
             <result name="findByGoodSuccess" type="dispatcher">/jsp/commentList.jsp</result>
         </action>
@@ -86,6 +86,7 @@
             <result name="receiveOrderSuccess" type="redirectAction">order_findByUserId</result>
             <result name="findByUserAndNoPaySuccess" type="dispatcher">/jsp/orderManage.jsp</result>
             <result name="findByUserAndNoSendSuccess" type="dispatcher">/jsp/orderManage.jsp</result>
+            <result name="updateCommentStatusSuccess" type="dispatcher">/jsp/orderUpdate.jsp</result>
 
         </action>
         <action name="cart_*" class="cartAction" method="{1}">
@@ -98,6 +99,7 @@
             <result name="toManagerViewSuccess" type="dispatcher">/jsp/manageView.jsp</result>
             <result name="statisticsByDateSuccess" type="dispatcher">/jsp/manageView.jsp</result>
             <result name="bottomListSuccess" type="dispatcher">/jsp/manageView.jsp</result>
+            <result name="checkGoodSuccess" type="redirectAction">cart_findByUserId.action</result>
         </action>
     </package>
 </struts>

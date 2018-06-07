@@ -104,7 +104,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
                         <div class="container">
-                            <form class="contact" action="user_update.action" method="post" id="form">
+                            <form class="contact" action="user_updatePwd.action" method="post" id="form">
                                 <div class="row clearfix" style="width: 100%">
                                     <div class="lbl">
                                         <label for="userId">
@@ -120,7 +120,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                             新 密 码</label>
                                     </div>
                                     <div class="ctrl">
-                                        <input type="password" id="password" name="userName" placeholder="输入6位及以上数字字母">
+                                        <input type="password" id="password" name="password" placeholder="输入6位及以上数字字母">
                                     </div>
                                 </div>
                                 <div class="row clearfix" style="width: 100%">
@@ -145,7 +145,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <!--inner block end here-->
             <!--copy rights start here-->
             <div class="copyrights">
-                <p>Copyright &copy; 2016.Company name All rights reserved.</p>
+                <p>Copyright &copy; 2018.Company name All rights reserved.</p>
             </div>
             <!--COPY rights end here-->
         </div>

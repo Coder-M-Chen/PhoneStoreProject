@@ -48,7 +48,7 @@
         </ul>
         <span class="change">更换验证码</span>
         <button id="login">登录</button>
-        <p class="register"><a href="register.html" style="color:#0076b9;">立即注册</a><a href="#">忘记密码</a></p>
+        <p class="register"><a href="register.html" style="color:#0076b9;">立即注册</a></p>
     </form>
 </div>
 <script>
